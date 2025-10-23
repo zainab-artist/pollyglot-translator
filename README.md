@@ -1,16 +1,30 @@
-# React + Vite
+# 🌍 Pollyglot Translator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful AI-powered translation app built with React and Cloudflare Workers.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🤖 AI-powered translations using OpenAI GPT
+- 🎨 Beautiful UI designed in Figma  
+- ⚡ Blazing fast Cloudflare Workers backend
+- 🔒 Secure API key management
+- 📱 Fully responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- Frontend: React, Vite, Tailwind CSS
+- Backend: Cloudflare Workers
+- AI: OpenAI API
+- Deployment: Cloudflare Pages
 
-## React Compiler
+## 🚀 Live Demo
+Live URL: https://pollyglot-translator-6q7.pages.dev/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Installation
+`bash
+# Clone repository
+git clone https://github.com/zainab-artist/pollyglot-translator.git
 
-## Expanding the ESLint configuration
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Run development server
+npm run dev
