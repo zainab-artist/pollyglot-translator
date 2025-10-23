@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from '../assets/frame 7.png';
+import logo from '../assets/Frame 7.png';
 import translateButton from '../assets/buttons/Button-link.png';
 import frenchFlag from '../assets/flags/fr-flag.png';
 import spanishFlag from '../assets/flags/sp-flag.png';
